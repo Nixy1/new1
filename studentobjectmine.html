@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj={}
+        obj.x=10
+        obj.y=20
+        obj.show=function(){
+        console.log(`x=${this.x}`)
+        console.log(`y=${this.y}`)
+    
+        }
+        console.log(obj)
+        console.log(typeof obj)
+        obj.show()
+        let person={name:"Student",rollno:12,mark1:90,mark2:98,mark3:97,display:function(){
+            console.log(`Name ${this.name}`)
+            console.log(`rollno ${this.rollno}`)
+            console.log(`mark ${this.mark1}`)
+            console.log(`mark ${this.mark2}`)
+            console.log(`mark ${this.mark3}`)
+        }}
+        console.log(person)
+        person.display()
+    </script>
+    
+</body>
+</html>

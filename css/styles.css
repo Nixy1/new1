@@ -1,0 +1,32 @@
+
+    /*defining style using style class */
+
+        .demo{
+            background-color: yellow;
+            width: 100%;
+            height: 200px;
+        }
+
+    /*based on id*/
+
+    #p1{
+        color: violet;
+
+    }
+
+
+    /*element base*/
+
+    h1{
+        color: tomato;
+        font-size: 30px;
+        font-family: 'Times New Roman';
+    }
+    
+    p{
+        color: teal;
+    }
+
+
+
+

@@ -1,0 +1,7 @@
+
+.th{
+    background-color: aqua;
+}
+.th:hover{
+    background-color: brown;
+}

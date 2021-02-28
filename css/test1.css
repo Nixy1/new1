@@ -1,0 +1,17 @@
+.tbl{
+    border-collapse: collapse;
+}
+.tHeader{
+    background-color: grey;
+}
+.tHeader:hover{
+    background-color: hotpink;
+
+}
+.rowcls:nth-child(even){
+    background-color: indigo;
+}
+
+.rowcls:nth-child(odd){
+    background-color: lawngreen;
+}
