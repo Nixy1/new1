@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function student (name,age,rollno,marks){
+            this.name=name
+            this.age=age
+            this.rollno=rollno
+            this.marks=marks
+            this.average=function(){
+                let sum=0
+            this.marks.forEach(element =>{
+                sum+=this.marks
+            });
+            return this.marks/this.marks.length
+        }
+            this.show=function(){
+
+                console.log(`name= ${this.name}`)
+                console.log(`age= ${this.age}`)
+                console.log(`rollno= ${this.rollno}`)
+                console.log(`marks= ${this.marks}`)
+            }
+        }
+        let s1=new student("Raj",20,1,[80,90,89])  
+        let s2=new student("Renu",22,2,[88,78,67])
+        let s3=new student("Ron",24,3,[67,89,98])
+        s1.show()
+        s2.show()
+        s3.show()
+        s1.average()
+        
+    </script>
+
+    
+</body>
+</html>
